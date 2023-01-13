@@ -21,7 +21,7 @@ jobs:
         with:
           name: "other.json"
           json: '{"name":$title, "link":$link}'
-          dir: '/src'
+          dir: '/'
       - name: commit files
         run: |
           git config --local user.email "action@github.com"
